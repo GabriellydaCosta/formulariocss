@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0; background-color: black;}
+body{color: white; text-color: white; margin-left: 7%;}
+
+#titulo{font-family: baguet script; britannic bold; georgia; color: red;}
+#subtítulo{font-family: vani; Sanskrit Text; Georgia; color: white;}
+#p{color: white;}
+#select{color: yellow;}
+#serioridade{color: yellow;}
+#campo{background-color: black; color: white; font-family: Georgia; Sans-Serif;}
+#grupo{border:0; color: white;}
+#option{color: white;}
+#input{color: white;}
+#botão{color: white; backgroun: white;}
+
+

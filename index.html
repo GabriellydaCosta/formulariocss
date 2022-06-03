@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" type="text/css" href="form.css">
+    <title>Formul&aacute;rio</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">Online Movies</h1>
+        <p id="subtítulo">Complete com suas informações e reserve seu filme favorito!</p>
+        <br>
+    </div>
+    <form action="" method="GET">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label id="input" for="nome"><strong>Nome</strong></label>
+                <input id="input" type="text" name="Nome" placeholder="Ex: Carlos..."></div>
+    <br>    
+           <div class="campo">
+                <label id="input" for="senha"><strong>Senha</strong></label>
+                <input id="input" type="password" name="Senha" placeholder="Ex: 123...">
+           </div>
+        </fieldset>
+        <br>
+        <br>
+     <div class="campo">
+             <label id="p"><strong>Tipo:</strong></label>
+             <input id="input" type="checkbox" name="trabalho" value="ação">Ação
+             <input id="input" type="checkbox" name="trabalho" value="romance">Romance
+             <input id="input" type="checkbox" name="trabalho" value="aventura">Aventura
+     </div>
+     <br>
+     <br>     
+     <div class="campo">
+         <label id="p"><strong>Horário:</strong></label>
+         <select id="serioridade">
+             <option selected disobled volue="">Selecione</option>
+             <option>9:00</option>
+             <option>14:00</option>
+             <option>18:00</option>
+             <option>21:00</option>
+         </select>
+     </div>
+     <br>
+     <br>   
+    <div class="campo">
+        <label id="p">Selecione sua fileira de assento:</label>
+        <br>
+        <label>
+            <input type="radio" name="experiência" value="um">1  a  4.
+        </label>
+        <label>
+            <input type="radio" name="experiência" value="cinco">5  a  8.
+        </label> 
+        <label>
+            <input type="radio" name="experiência" value="nove">9  a  12.
+        </label>
+    </div>
+        <br>     
+    <div class="campo">
+        <br>
+        <label id="p"><strong>Tipo de lanche:</strong></label><br>
+        <textarea id="input"row="6" style="width: 26em" id="experiência" name="experiência"></textarea>
+    </div>
+    <br>   
+    <p id="p"><strong>Selecione o filme desejado:</strong></p>
+    <div class="campo">
+        <select name="salario" id="select">
+            <option selected disobled volue="">Selecione</option
+            <option value="A bela e a Fera">A bela e a Fera</option>
+            <option value="Tarzan">Tarzan</option>
+            <option value="Sherlock Homes">Sherlock Homes</option>
+            <option value="Minha mãe é uma peça">Minha mãe é uma peça</option>
+        </select>
+    </div>    
+    <br>
+    <br>
+        <input id="botão" class="botão" type="submit" value="enviar">
+    </form>
+</body>
+</html>
